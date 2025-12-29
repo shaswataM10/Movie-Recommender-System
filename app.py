@@ -49,7 +49,7 @@ def fetch_poster(movie_id: int) -> str:
 
 
 # ============================
-# Recommendation Logic (UNCHANGED)
+# Recommendation Logic 
 # ============================
 def recommend(movie: str):
     movie_index = movies[movies["title"] == movie].index[0]
